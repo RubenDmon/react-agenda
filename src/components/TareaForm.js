@@ -25,12 +25,12 @@ function TareaForm(props){
             <input
                 className='tarea-input'
                 type='text'
-                placeholder='tarea'
+                placeholder='escribe tu proposito'
                 name='texto'
                 onChange={manejarCambio}
             />
             <button className='tarea-boton'>
-                Agregar Tarea
+                Añadir proposito
             </button>
         </form>
     );

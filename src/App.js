@@ -1,5 +1,5 @@
 import './styles/App.css';
-import Logo from './images/freecodecampLogo.png';
+import Logo from './images/2023logo.png';
 import Tarea from './components/Tarea.js';
 import TareaForm  from './components/TareaForm.js';
 
@@ -15,7 +15,7 @@ function App() {
       </div>
 
       <div className='tareas-lista-principal'>
-        <h1>Mis Tareas</h1>
+        <h1>Propositos año  nuevo</h1>
         <ListaDeTareas/>
       </div>
       
