@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/react-agenda/static/css/main.080f5aae.css",
+    "main.js": "/react-agenda/static/js/main.1669ffba.js",
+    "static/js/787.1b18f468.chunk.js": "/react-agenda/static/js/787.1b18f468.chunk.js",
+    "index.html": "/react-agenda/index.html",
+    "main.080f5aae.css.map": "/react-agenda/static/css/main.080f5aae.css.map",
+    "main.1669ffba.js.map": "/react-agenda/static/js/main.1669ffba.js.map",
+    "787.1b18f468.chunk.js.map": "/react-agenda/static/js/787.1b18f468.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.080f5aae.css",
+    "static/js/main.1669ffba.js"
+  ]
+}
