@@ -1,0 +1,52 @@
+:root{
+    --main-color:#3A2A53;
+    --secondary-color:rgb(197, 190, 225);
+  }
+*	{
+    margin :0;
+    padding :0;
+    box-sizing:border-box;
+  }
+html,
+body{
+    color: var(--secondary-color);
+    background-color: var(--main-color);
+    font-family: Lato,sans-serif;
+    margin-top: 40px;
+}
+h1{
+    color: var(--main-color);
+    font-size: clamp(2.225rem, 1.7878rem + 2.1861vw, 3.7006rem);
+    font-family: Roboto,sans-serif;
+    text-align: center;
+    margin: 20px 0;
+    text-shadow: 1px 1px white;
+}
+.App-Tareas{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* logo */
+.freecodecampLogo-container{
+    /* max-height: 4rem; */
+    margin: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.freecodecampLogo{
+    width: 50%;
+}
+
+/* lista de tareas */
+.tareas-lista-principal{
+    width: 80%;
+    min-height: 65vh;
+    background-color: var(--secondary-color);
+    padding: 1.2rem;
+    margin: 10px;
+    border-radius: 1rem;
+}
